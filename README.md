@@ -28,4 +28,4 @@ export PATH=$PATH:$M2_HOME/bin
 
 4) Chromedriver
 
-С сайта http://chromedriver.chromium.org/downloads выбрать версию и перейти к скачиванию файла. Откроется страница с орлом https://chromedriver.storage.googleapis.com/index.html?path=2.41/ и выбрав нужную операционную систему, скачать файл. В проекте в классе BaseTestClasses  в строке System.setProperty("webdriver.chrome.driver", «ПУТЬ_К_ДРАЙВЕРУ/chromedriver») указать путь, где расположен драйвер.
+С сайта http://chromedriver.chromium.org/downloads выбрать версию и перейти к скачиванию файла. Откроется страница https://chromedriver.storage.googleapis.com/index.html?path=2.41/ и выбрав нужную операционную систему, скачать файл. В проекте в классе BaseTestClasses  в строке System.setProperty("webdriver.chrome.driver", «ПУТЬ_К_ДРАЙВЕРУ/chromedriver») указать путь, где расположен драйвер.
